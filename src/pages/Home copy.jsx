@@ -170,18 +170,6 @@ function Home() {
             {isLoading ? 'Submitting...' : 'Claim Offer'}
           </button>
         </form>
-
-        <div className="mt-4 text-center border-t border-gray-100 pt-4">
-          <p className="text-gray-400 mb-4 text-xs font-semibold uppercase tracking-widest">Download the app</p>
-          <div className="flex justify-center gap-4">
-            <a href="https://play.google.com/store/apps/details?id=com.app.clozzet&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="transition-transform hover:-translate-y-1">
-              <img src="/images/playstore.webp" alt="Get it on Play Store" className="h-10 w-auto" />
-            </a>
-            <a href="https://apps.apple.com/us/app/clozzet-fashion-in-minutes/id6747312453" target="_blank" rel="noopener noreferrer" className="transition-transform hover:-translate-y-1">
-              <img src="/images/appstore.webp" alt="Download on the App Store" className="h-10 w-auto" />
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
