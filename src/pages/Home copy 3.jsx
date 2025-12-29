@@ -129,7 +129,7 @@ function Home() {
 
             <div className="bg-transparent border-none p-0">
               <div className="flex gap-4">
-                <label className={`flex items-center justify-center cursor-pointer font-semibold text-[1rem] text-[#555] bg-white border-2 border-[#e0e0e0] rounded-xl p-2 flex-1 transition-all duration-200 ease-[cubic-bezier(0.4,0,0.2,1)] relative hover:bg-white hover:border-[#b0d8f7] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,0,0,0.05)] ${formData.storeId === STORES.VEIRDO.id ? 'bg-white border-brand-blue text-[#0c69d4] shadow-[0_4px_12px_rgba(66,168,238,0.15)]' : ''}`}>
+                <label className={`flex items-center justify-center cursor-pointer font-semibold text-[1rem] text-[#555] bg-[#f8f9fa] border-2 border-[#e0e0e0] rounded-xl p-4 flex-1 transition-all duration-200 ease-[cubic-bezier(0.4,0,0.2,1)] relative hover:bg-white hover:border-[#b0d8f7] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,0,0,0.05)] ${formData.storeId === STORES.VEIRDO.id ? 'bg-[#e6f4ff] border-brand-blue text-[#0c69d4] shadow-[0_4px_12px_rgba(66,168,238,0.15)]' : ''}`}>
                   <input
                     type="radio"
                     name="storeId"
@@ -139,9 +139,9 @@ function Home() {
                     className="hidden"
                     required
                   />
-                  <img src="/images/veirdo.png" alt="Veirdo" className="h-12 w-full object-contain" />
+                  Veirdo
                 </label>
-                <label className={`flex items-center justify-center cursor-pointer font-semibold text-[1rem] text-[#555] bg-black border-2 border-[#e0e0e0] rounded-xl p-2 flex-1 transition-all duration-200 ease-[cubic-bezier(0.4,0,0.2,1)] relative hover:bg-black hover:border-[#b0d8f7] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,0,0,0.05)] ${formData.storeId === STORES.JUNEBERRY.id ? 'bg-black border-brand-blue text-[#0c69d4] shadow-[0_4px_12px_rgba(66,168,238,0.15)]' : ''}`}>
+                <label className={`flex items-center justify-center cursor-pointer font-semibold text-[1rem] text-[#555] bg-[#f8f9fa] border-2 border-[#e0e0e0] rounded-xl p-4 flex-1 transition-all duration-200 ease-[cubic-bezier(0.4,0,0.2,1)] relative hover:bg-white hover:border-[#b0d8f7] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,0,0,0.05)] ${formData.storeId === STORES.JUNEBERRY.id ? 'bg-[#e6f4ff] border-brand-blue text-[#0c69d4] shadow-[0_4px_12px_rgba(66,168,238,0.15)]' : ''}`}>
                   <input
                     type="radio"
                     name="storeId"
@@ -151,7 +151,7 @@ function Home() {
                     className="hidden"
                     required
                   />
-                  <img src="/images/juneberry.png" alt="Juneberry" className="h-12 w-full object-contain" />
+                  Juneberry
                 </label>
               </div>
             </div>
